@@ -1,0 +1,776 @@
+
+body {
+    background: #237457;
+    font: 13px/20px 'Lucida Grande', Tahoma, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+    
+}
+
+#HomeIMG{
+    width: 60%;
+    height: 75%;
+}
+footer{
+    width:100%;
+    height:50px;
+    position:fixed;
+    bottom:0;
+    left:0;
+    right: 0;
+    margin-bottom: 0;
+    background:#303030;
+    z-index:3;
+}
+
+.imageterm {
+
+    border-radius: 10px;
+     box-shadow: 10px 10px 5px #888888;
+}
+
+.nextControl {
+    
+	float: right;
+	height: 300px;
+	width: 10%;
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf));
+	background:-moz-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:-webkit-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:-o-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:-ms-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf',GradientType=0);
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#777777;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.nextControl:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed));
+	background:-moz-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-webkit-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-o-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-ms-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed',GradientType=0);
+	background-color:#dfdfdf;
+}
+.nextControl:active {
+	position:relative;
+	top:1px;
+}
+.prevControl {
+	
+	float: left;
+	height: 300px;
+	width: 10%;
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf));
+	background:-moz-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:-webkit-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:-o-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:-ms-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf',GradientType=0);
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#777777;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.prevControl:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed));
+	background:-moz-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-webkit-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-o-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-ms-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed',GradientType=0);
+	background-color:#dfdfdf;
+}
+.prevControl:active {
+	position:relative;
+	top:1px;
+}
+
+div.flashcard {       
+    /*margin: 0 10px 10px 0;*/
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+            }
+            div.flashcard .question {
+                background-color:#ddd;
+                width: 400px;        
+                padding: 5px;    
+                cursor: hand;    
+                cursor: pointer;
+            }
+            div.flashcard .answer {
+                background-color:#eee;
+                width: 400px;
+                padding: 5px;    
+                display: none;
+		color: black;
+		font-size: 20px;
+            }
+	    
+
+/*----- Toggle Button -----*/
+.toggle-nav {
+    display:none;
+}
+ 
+/*----- Menu -----*/
+@media screen and (min-width: 860px) {
+    .menu {
+        width:100%;
+        padding:10px 18px;
+        box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+        border-radius:3px;
+        background:#303030;
+    }
+}
+ 
+ .menu-wrap {
+    width:100%;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+    background:#3e3436;
+}
+.menu ul {
+    display:inline-block;
+}
+ 
+.menu li {
+    margin:0px 50px 0px 0px;
+    float:left;
+    list-style:none;
+    font-size:17px;
+}
+ 
+.menu li:last-child {
+    margin-right:0px;
+}
+ 
+.menu a {
+    text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+    color:white;
+    transition:color linear 0.15s;
+}
+ 
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+    color:#66a992;
+}
+ 
+    .menu .arrow {
+    font-size:11px;
+    line-height:0%;
+    }
+ 
+/*----- Responsive -----*/
+@media screen and (max-width: 1150px) {
+    .wrap {
+        width:100%;
+    }
+}
+ 
+@media screen and (max-width: 970px) {
+    .search-form input {
+        width:120px;
+    }
+}
+ 
+@media screen and (max-width: 860px) {
+    .menu {
+        position:relative;
+        display:inline-block;
+    }
+ 
+    .menu ul.active {
+        display:none;
+    }
+ 
+    .menu ul {
+        width:100%;
+        position:absolute;
+        top:120%;
+        left:0px;
+        padding:10px 18px;
+        box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+        border-radius:3px;
+        background:#303030;
+    }
+ 
+    .menu ul:after {
+        width:0px;
+        height:0px;
+        position:absolute;
+        top:0%;
+        left:22px;
+        content:'';
+        transform:translate(0%, -100%);
+        border-left:7px solid transparent;
+        border-right:7px solid transparent;
+        border-bottom:7px solid #303030;
+    }
+ 
+    .menu li {
+        margin:5px 0px 5px 0px;
+        float:none;
+        display:block;
+    }
+ 
+    .menu a {
+        display:block;
+    }
+    .menu .arrow {
+    font-size:11px;
+    line-height:0%;
+}
+ 
+    .toggle-nav {
+        padding:20px;
+        float:left;
+        display:inline-block;
+        box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+        border-radius:3px;
+        background:#303030;
+        text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+        color:#777;
+        font-size:20px;
+        transition:color linear 0.15s;
+    }
+ 
+    .toggle-nav:hover, .toggle-nav.active {
+        text-decoration:none;
+        color:#66a992;
+    }
+ 
+    .search-form {
+        margin:12px 0px 0px 20px;
+        float:left;
+    }
+ 
+    .search-form input {
+        box-shadow:-1px 1px 2px rgba(0,0,0,0.1);
+    }
+}
+
+/*----- Bottom Level -----*/
+.menu li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+ 
+.sub-menu {
+    width:160%;
+    padding:5px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:#2e2728;
+}
+ 
+.sub-menu li {
+    display:block;
+    font-size:16px;
+}
+ 
+.sub-menu li a {
+    padding:10px 30px;
+    display:block;
+}
+ 
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background:#3e3436;
+}
+
+/*----- Top Level -----*/
+.menu > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:19px;
+}
+ 
+.menu > ul > li > a {
+    padding:10px 40px;
+    display:inline-block;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+}
+ 
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    background:#2e2728;
+}
+
+
+
+img {
+    max-width: 100%;
+    
+}
+
+#logo{
+    background: url(http://www.greenriver.edu/images/template_sprite4.png);
+    background-position: -90px -10px;
+    width: 200px;
+    height: 80px;
+    
+    margin: -30px -70px -50px -150px;
+}
+.audioC{
+    position: relative;
+    bottom: -300px;
+}
+
+/* entire container, keeps perspective */
+.flip-container {
+	position: relative;
+	background: white;
+	color:black;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	max-width:100%;
+	max-height:60%;
+	perspective: 1000;
+	z-index: -1;
+	top: 50%;
+}
+	/* flip the pane when hovered */
+	.flip-container.active .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	max-width:100%;
+	max-height:100%;
+	
+	
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0s;
+	transform-style: preserve-3d;
+	
+	position: relative;
+}
+
+/* hide back of pane during swap*/
+.front, .back {
+	backface-visibility: hidden;
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+	
+}
+
+/* back, initially hidden pane */
+.back {
+	padding: 40%;
+	color: #ededed;
+	margin-left: auto;
+	margin-right: auto;
+	transform: rotateY(180deg);
+	font-size: 1.5em;
+	line-height: 200%;
+	
+}
+
+
+/*
+    these are just the default styles used in the Cycle2 demo pages.  
+    you can use these styles or any others that you wish.
+*/
+
+
+/* set border-box so that percents can be used for width, padding, etc (personal preference) */
+.cycle-slideshow, .cycle-slideshow * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+
+.cycle-slideshow {  width: 80%;  max-width: 300px; max-height: 90%; margin: 10px auto; padding: 0; position: relative;
+    background: url(http://malsup.github.com/images/spinner.gif) 50% 50% no-repeat;
+    
+ }
+
+/* slideshow images (for most of the demos, these are the actual "slides") */
+.cycle-slideshow img { 
+    /* 
+    some of these styles will be set by the plugin (by default) but setting them here
+    helps avoid flash-of-unstyled-content
+    */
+     top: 0; left: 0;
+    width: 100%; padding: 0; display: block;
+    
+}
+
+/* in case script does not load */
+.cycle-slideshow img:first-child {
+    position: static; z-index: 100;
+}
+
+/* pager */
+.cycle-pager { 
+    text-align: center; width: 100%; z-index: 500; position: absolute; top: 10px; overflow: hidden;
+}
+.cycle-pager span { 
+    font-family: arial; font-size: 50px; width: 16px; height: 16px; 
+    display: inline-block; color: #ddd; cursor: pointer; 
+}
+.cycle-pager span.cycle-pager-active { color: #D69746;}
+.cycle-pager > * { cursor: pointer;}
+
+
+/* caption */
+.cycle-caption { position: absolute; color: white; bottom: 15px; right: 15px; z-index: 700; }
+
+
+/* overlay */
+.cycle-overlay { 
+    font-family: tahoma, arial;
+    position: absolute; bottom: 0; width: 100%; z-index: 600;
+    background: black; color: white; padding: 15px; opacity: .5;
+}
+
+
+/* prev / next links */
+.cycle-prev, .cycle-next { position: absolute; top: 0; width: 30%; opacity: 0; filter: alpha(opacity=0); z-index: 800; height: 100%; cursor: pointer; }
+.cycle-prev { left: 0;  background: url(http://malsup.github.com/images/left.png) 50% 50% no-repeat;}
+.cycle-next { right: 0; background: url(http://malsup.github.com/images/right.png) 50% 50% no-repeat;}
+.cycle-prev:hover, .cycle-next:hover { opacity: .7; filter: alpha(opacity=70) }
+
+.disabled { opacity: .5; filter:alpha(opacity=50); }
+
+
+/* display paused text on top of paused slideshow */
+.cycle-paused:after {
+    content: 'Paused'; color: white; background: black; padding: 10px;
+    z-index: 500; position: absolute; top: 10px; right: 10px;
+    border-radius: 10px;
+    opacity: .5; filter: alpha(opacity=50);
+}
+
+/* 
+    media queries 
+    some style overrides to make things more pleasant on mobile devices
+*/
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+    .cycle-slideshow { width: 200px;}
+    .cycle-overlay { padding: 4px }
+    .cycle-caption { bottom: 4px; right: 4px }
+}
+/* login page css */
+.form{
+  width: 400px;
+  height: 230px;
+  background: #edeff1;
+  margin: 0px auto;
+  padding-top: 20px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+
+input[type="text"]:focus{
+  border: 2px solid #1abc9d
+}
+input[type="text"]{
+  display: block;
+  width: 309px;
+  height: 35px;
+  margin: 15px auto;
+  background: #fff;
+  border: 0px;
+  padding: 5px;
+  font-size: 16px;
+   border: 2px solid #fff;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+input[type="password"]{
+  display: block;
+  width: 309px;
+  height: 35px;
+  margin: 15px auto;
+  background: #fff;
+  border: 0px;
+  padding: 5px;
+  font-size: 16px;
+   border: 2px solid #fff;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+input[type="file"]{
+  display: block;
+  width: 309px;
+  height: 35px;
+  margin: 15px auto;
+  
+  border: 0px;
+  
+  font-size: 16px;
+       border: 2px solid #fff;
+  transition: all 0.3s ease;
+  
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+input[type="submit"]:hover{
+  background: #09cca6
+}
+
+button{
+
+  font-family: inherit;
+  color: #fff;
+  display: block;
+  background: #1abc9d;
+  margin: 15px auto;
+    width: 314px;
+  padding: 12px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  padding: 5px 5px 5px 25px;
+  border: 1px solid #666;
+  text-decoration:none;
+    -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  font-size: 17px;
+
+}
+button:hover{
+
+    background: #09cca6;
+}
+input[type="submit"]{
+  display: block;
+  background: #1abc9d;
+  width: 314px;
+  padding: 12px;
+    font-size: 17px;
+  cursor: pointer;
+  color: #fff;
+  border: 0px;
+  margin: auto;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+
+  transition: all 0.3s ease;
+}
+span{
+    float: left;
+}
+.log{
+    float: none;
+}
+
+
+.container-element {
+  /* some fixed width */
+  float:right;
+  width:100%;
+}
+
+.text-left-element,
+.text-right-element {
+  display:inline-block;
+  vertical-align:bottom;
+}
+
+.text-left-element {
+  text-align: left;
+  width: 100%;
+}
+
+.text-right-element {
+  text-align:right;
+  width:100%;
+}
+
+
+a:visited, a:link {
+    color:white;
+}
+
+a:hover{
+    color: blue;
+}
+
+.term{
+    font-size: 30px;
+    display: none;
+}
+/* section page and learn it page css */
+.learn{
+  width: auto;
+  height: auto;
+  background: #303030;
+  margin: 0px auto;
+  padding-top: 20px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+.place{
+    position: relative;
+    max-width: 100%;
+}
+
+.imgsize{
+    max-height: 300px;
+    max-width: 100%;
+}
+
+
+.Fstage {
+  -webkit-perspective: 1000; 
+}
+
+.Fflashcard {
+  height: 600px;  
+  width: 1000px; 
+  margin: 10% auto;
+  border: 1px solid gray; 
+  box-shadow: 2px 2px 2px #000;
+  -webkit-transform-style: preserve-3d;  
+  transition: all 0.3s;               
+  -webkit-transition: all 0.3s;
+}
+
+.Fflipped, .Fback {
+  transform: rotateX(180deg);
+
+  -ms-transform: rotateX(180deg); 
+  -webkit-transform: rotateX(180deg); 
+}
+
+ .Fback {
+
+  height: 600px;          
+  width: 1000px;
+  position: absolute;    
+  text-align: center;   
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;       
+}
+
+ .Fback p {
+  margin-top: 25%;       
+  font-size: 3em;
+}
+
+.Ffront {
+    
+    max-width: 90%;
+    max-height: 90%;
+      height: 600px;          
+  width: 1000px;
+  position: absolute;    
+  text-align: center;
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;     
+}
+
+.Ffront p{
+    
+}
+/*dropw down menu */
+.styled-select {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  background: #1abc9d;
+  width: 314px;
+  padding: 12px;
+    font-size: 20px;
+  cursor: pointer;
+  color: white;
+   height: 46px;
+   overflow: hidden;
+   float: inherit;
+   border: 1px solid #ccc;
+    -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+   }
+   
+ span{
+    font-size: 17px;
+    font-family: cursive;
+
+
+    color:#fff;
+ }
+ input {
+    border: 5px solid white; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 15px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;
+}
+
+.fitimage{
+    max-width: 50%;
+}
+
+.fitpic{
+    max-height: 100%;
+    max-width: 100%;
+    min-width: 40%;
+    min-height: 60%;
+}
+.font{
+    font-size: 30px;
+}

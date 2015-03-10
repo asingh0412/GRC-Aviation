@@ -1,0 +1,264 @@
+[20-Nov-2014 15:38:39 America/Chicago] PHP Warning:  require(db.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/db_test.php on line 3
+[20-Nov-2014 15:38:39 America/Chicago] PHP Warning:  require(db.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/db_test.php on line 3
+[20-Nov-2014 15:38:39 America/Chicago] PHP Fatal error:  require(): Failed opening required 'db.php' (include_path='.:/opt/php54/lib/php') in /home/alex/public_html/IT305/grcc-aviation/db_test.php on line 3
+[20-Nov-2014 16:51:50 America/Chicago] PHP Fatal error:  Call to a member function exec() on a non-object in /home/alex/public_html/IT305/grcc-aviation/upload.php on line 106
+[20-Nov-2014 16:54:08 America/Chicago] PHP Warning:  require(db.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/upload.php on line 91
+[20-Nov-2014 16:54:08 America/Chicago] PHP Warning:  require(db.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/upload.php on line 91
+[20-Nov-2014 16:54:08 America/Chicago] PHP Fatal error:  require(): Failed opening required 'db.php' (include_path='.:/opt/php54/lib/php') in /home/alex/public_html/IT305/grcc-aviation/upload.php on line 91
+[20-Nov-2014 16:55:31 America/Chicago] PHP Warning:  PDO::exec(): SQLSTATE[HY000]: General error: trying to execute an empty query in /home/alex/public_html/IT305/grcc-aviation/upload.php on line 107
+[20-Nov-2014 16:57:21 America/Chicago] PHP Warning:  PDO::exec(): SQLSTATE[HY000]: General error: trying to execute an empty query in /home/alex/public_html/IT305/grcc-aviation/upload.php on line 108
+[20-Nov-2014 17:37:01 America/Chicago] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/alex/public_html/IT305/grcc-aviation/db_test.php on line 35
+[20-Nov-2014 17:37:30 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/alex/public_html/IT305/grcc-aviation/upload.php on line 118
+[20-Nov-2014 17:37:30 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/alex/public_html/IT305/grcc-aviation/upload.php on line 118
+[20-Nov-2014 17:40:49 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/alex/public_html/IT305/grcc-aviation/db_test.php on line 35
+[20-Nov-2014 17:41:27 America/Chicago] PHP Fatal error:  Call to a member function close() on a non-object in /home/alex/public_html/IT305/grcc-aviation/db_test.php on line 41
+[21-Nov-2014 01:20:10 America/Chicago] PHP Fatal error:  Call to a member function setAttribute() on a non-object in /home/alex/public_html/IT305/grcc-aviation/db_test.php on line 42
+[21-Nov-2014 01:34:46 America/Chicago] PHP Parse error:  syntax error, unexpected 'aviationn' (T_STRING) in /home/alex/public_html/IT305/grcc-aviation/db_test.php on line 32
+[21-Nov-2014 01:37:51 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/alex/public_html/IT305/grcc-aviation/db_test.php on line 49
+[24-Nov-2014 13:35:18 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/alex/public_html/IT305/grcc-aviation/db_test.php on line 49
+[24-Nov-2014 13:36:55 America/Chicago] PHP Parse error:  syntax error, unexpected 'flashCardSection' (T_STRING), expecting ',' or ';' in /home/alex/public_html/IT305/grcc-aviation/db_test.php on line 49
+[24-Nov-2014 13:37:29 America/Chicago] PHP Parse error:  syntax error, unexpected 'flashCardSection' (T_STRING), expecting ',' or ';' in /home/alex/public_html/IT305/grcc-aviation/db_test.php on line 49
+[24-Nov-2014 13:37:31 America/Chicago] PHP Parse error:  syntax error, unexpected 'flashCardSection' (T_STRING), expecting ',' or ';' in /home/alex/public_html/IT305/grcc-aviation/db_test.php on line 49
+[24-Nov-2014 13:38:01 America/Chicago] PHP Parse error:  syntax error, unexpected 'flashCardSection' (T_STRING), expecting ',' or ';' in /home/alex/public_html/IT305/grcc-aviation/db_test.php on line 49
+[24-Nov-2014 13:38:03 America/Chicago] PHP Parse error:  syntax error, unexpected 'flashCardSection' (T_STRING), expecting ',' or ';' in /home/alex/public_html/IT305/grcc-aviation/db_test.php on line 49
+[24-Nov-2014 13:38:39 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/alex/public_html/IT305/grcc-aviation/db_test.php on line 70
+[24-Nov-2014 13:41:20 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/alex/public_html/IT305/grcc-aviation/db_test.php on line 71
+[24-Nov-2014 13:41:45 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/alex/public_html/IT305/grcc-aviation/db_test.php on line 71
+[24-Nov-2014 13:41:48 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/alex/public_html/IT305/grcc-aviation/db_test.php on line 71
+[24-Nov-2014 13:42:08 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/alex/public_html/IT305/grcc-aviation/db_test.php on line 71
+[24-Nov-2014 14:29:19 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/alex/public_html/IT305/grcc-aviation/alex_test.php on line 29
+[24-Nov-2014 14:39:14 America/Chicago] PHP Parse error:  syntax error, unexpected '$sql' (T_VARIABLE), expecting ',' or ';' in /home/alex/public_html/IT305/grcc-aviation/db_test.php on line 58
+[24-Nov-2014 14:41:18 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/alex/public_html/IT305/grcc-aviation/db_test.php on line 74
+[24-Nov-2014 14:42:59 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/alex/public_html/IT305/grcc-aviation/db_test.php on line 67
+[24-Nov-2014 15:16:31 America/Chicago] PHP Parse error:  syntax error, unexpected 'cycle' (T_STRING), expecting ',' or ';' in /home/alex/public_html/IT305/grcc-aviation/alex_test.php on line 45
+[24-Nov-2014 15:27:41 America/Chicago] PHP Parse error:  syntax error, unexpected 'prevControl' (T_STRING), expecting ',' or ';' in /home/alex/public_html/IT305/grcc-aviation/alex_test.php on line 80
+[30-Nov-2014 15:06:18 America/Chicago] PHP Warning:  include_once(includes/db_connect.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/loginTest.php on line 2
+[30-Nov-2014 15:06:18 America/Chicago] PHP Warning:  include_once(): Failed opening 'includes/db_connect.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/alex/public_html/IT305/grcc-aviation/loginTest.php on line 2
+[30-Nov-2014 15:06:18 America/Chicago] PHP Warning:  include_once(includes/functions.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/loginTest.php on line 3
+[30-Nov-2014 15:06:18 America/Chicago] PHP Warning:  include_once(): Failed opening 'includes/functions.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/alex/public_html/IT305/grcc-aviation/loginTest.php on line 3
+[30-Nov-2014 15:06:18 America/Chicago] PHP Fatal error:  Call to undefined function sec_session_start() in /home/alex/public_html/IT305/grcc-aviation/loginTest.php on line 5
+[30-Nov-2014 15:07:17 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'alex_secUser'@'localhost' (using password: YES) in /home/alex/public_html/IT305/grcc-aviation/includes/db_connect.php on line 3
+[30-Nov-2014 15:07:17 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/alex/public_html/IT305/grcc-aviation/includes/db_connect.php:3) in /home/alex/public_html/IT305/grcc-aviation/includes/functions.php on line 23
+[30-Nov-2014 15:07:17 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/alex/public_html/IT305/grcc-aviation/includes/db_connect.php:3) in /home/alex/public_html/IT305/grcc-aviation/includes/functions.php on line 23
+[30-Nov-2014 15:07:17 America/Chicago] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/alex/public_html/IT305/grcc-aviation/includes/functions.php on line 24
+[30-Nov-2014 16:41:27 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/alex/public_html/IT305/grcc-aviation/login.php on line 56
+[30-Nov-2014 16:41:43 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'alex_grccuser'@'localhost' to database 'my_database'' in /home/alex/public_html/IT305/grcc-aviation/login.php:64
+Stack trace:
+#0 /home/alex/public_html/IT305/grcc-aviation/login.php(64): PDO->__construct('mysql:host=loca...', 'alex_grccuser', 'grccuser')
+#1 {main}
+  thrown in /home/alex/public_html/IT305/grcc-aviation/login.php on line 64
+[30-Nov-2014 16:41:55 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'alex_grccuser'@'localhost' to database 'my_database'' in /home/alex/public_html/IT305/grcc-aviation/login.php:64
+Stack trace:
+#0 /home/alex/public_html/IT305/grcc-aviation/login.php(64): PDO->__construct('mysql:host=loca...', 'alex_grccuser', 'grccuser')
+#1 {main}
+  thrown in /home/alex/public_html/IT305/grcc-aviation/login.php on line 64
+[30-Nov-2014 16:42:31 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'alex_grccuser'@'localhost' to database 'grcc_aviation_users'' in /home/alex/public_html/IT305/grcc-aviation/login.php:64
+Stack trace:
+#0 /home/alex/public_html/IT305/grcc-aviation/login.php(64): PDO->__construct('mysql:host=loca...', 'alex_grccuser', 'grccuser')
+#1 {main}
+  thrown in /home/alex/public_html/IT305/grcc-aviation/login.php on line 64
+[30-Nov-2014 16:43:00 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'alex_grccuser'@'localhost' to database 'grcc_aviation-users'' in /home/alex/public_html/IT305/grcc-aviation/login.php:64
+Stack trace:
+#0 /home/alex/public_html/IT305/grcc-aviation/login.php(64): PDO->__construct('mysql:host=loca...', 'alex_grccuser', 'grccuser')
+#1 {main}
+  thrown in /home/alex/public_html/IT305/grcc-aviation/login.php on line 64
+[30-Nov-2014 16:44:46 America/Chicago] PHP Fatal error:  Call to a member function CheckPassword() on a non-object in /home/alex/public_html/IT305/grcc-aviation/login.php on line 75
+[30-Nov-2014 16:46:30 America/Chicago] PHP Fatal error:  Call to a member function CheckPassword() on a non-object in /home/alex/public_html/IT305/grcc-aviation/login.php on line 75
+[30-Nov-2014 16:50:37 America/Chicago] PHP Fatal error:  Call to a member function CheckPassword() on a non-object in /home/alex/public_html/IT305/grcc-aviation/login.php on line 75
+[30-Nov-2014 16:52:33 America/Chicago] PHP Fatal error:  Call to a member function CheckPassword() on a non-object in /home/alex/public_html/IT305/grcc-aviation/login.php on line 75
+[30-Nov-2014 16:53:34 America/Chicago] PHP Fatal error:  Call to a member function CheckPassword() on a non-object in /home/alex/public_html/IT305/grcc-aviation/login.php on line 74
+[01-Dec-2014 14:12:05 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:12:05 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:12:05 America/Chicago] PHP Warning:  include(): Failed opening 'learnit.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:12:21 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:12:21 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:12:21 America/Chicago] PHP Warning:  include(): Failed opening 'learnit.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:13:53 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:13:53 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:13:53 America/Chicago] PHP Warning:  include(): Failed opening 'learnit.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:15:15 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:15:15 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:15:15 America/Chicago] PHP Warning:  include(): Failed opening 'learnit.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:15:32 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:15:32 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:15:32 America/Chicago] PHP Warning:  include(): Failed opening 'learnit.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:15:32 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:15:32 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:15:32 America/Chicago] PHP Warning:  include(): Failed opening 'learnit.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:17:35 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:17:35 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:17:35 America/Chicago] PHP Warning:  include(): Failed opening 'learnit.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:21:27 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:21:27 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:21:27 America/Chicago] PHP Warning:  include(): Failed opening 'learnit.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:23:01 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:23:01 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:23:01 America/Chicago] PHP Warning:  include(): Failed opening 'learnit.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:23:09 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:23:09 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:23:09 America/Chicago] PHP Warning:  include(): Failed opening 'learnit.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:23:55 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:23:55 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:23:55 America/Chicago] PHP Warning:  include(): Failed opening 'learnit.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:24:21 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 68
+[01-Dec-2014 14:24:21 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 68
+[01-Dec-2014 14:24:21 America/Chicago] PHP Warning:  include(): Failed opening 'learnit.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/alex/public_html/IT305/grcc-aviation/index.php on line 68
+[01-Dec-2014 14:24:30 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 68
+[01-Dec-2014 14:24:30 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 68
+[01-Dec-2014 14:24:30 America/Chicago] PHP Warning:  include(): Failed opening 'learnit.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/alex/public_html/IT305/grcc-aviation/index.php on line 68
+[01-Dec-2014 14:24:36 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 68
+[01-Dec-2014 14:24:36 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 68
+[01-Dec-2014 14:24:36 America/Chicago] PHP Warning:  include(): Failed opening 'learnit.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/alex/public_html/IT305/grcc-aviation/index.php on line 68
+[01-Dec-2014 14:24:49 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:24:49 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:24:49 America/Chicago] PHP Warning:  include(): Failed opening 'learnit.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:25:13 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:25:13 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:25:13 America/Chicago] PHP Warning:  include(): Failed opening 'learnit.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:25:13 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:25:13 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:25:13 America/Chicago] PHP Warning:  include(): Failed opening 'learnit.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:25:15 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:25:15 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:25:15 America/Chicago] PHP Warning:  include(): Failed opening 'learnit.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/alex/public_html/IT305/grcc-aviation/index.php on line 67
+[01-Dec-2014 14:25:45 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 68
+[01-Dec-2014 14:25:45 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 68
+[01-Dec-2014 14:25:45 America/Chicago] PHP Warning:  include(): Failed opening 'learnit.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/alex/public_html/IT305/grcc-aviation/index.php on line 68
+[01-Dec-2014 14:26:07 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 68
+[01-Dec-2014 14:26:07 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 68
+[01-Dec-2014 14:26:07 America/Chicago] PHP Warning:  include(): Failed opening 'learnit.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/alex/public_html/IT305/grcc-aviation/index.php on line 68
+[01-Dec-2014 14:31:31 America/Chicago] PHP Warning:  include(upload-form.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 68
+[01-Dec-2014 14:31:31 America/Chicago] PHP Warning:  include(upload-form.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 68
+[01-Dec-2014 14:31:31 America/Chicago] PHP Warning:  include(): Failed opening 'upload-form.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/alex/public_html/IT305/grcc-aviation/index.php on line 68
+[01-Dec-2014 15:03:34 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/alex/public_html/IT305/grcc-aviation/uploadform.php on line 50
+[01-Dec-2014 15:37:54 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home/alex/public_html/IT305/grcc-aviation/uploadform.php on line 59
+[01-Dec-2014 15:37:54 America/Chicago] PHP Fatal error:  Call to undefined function getfilesize() in /home/alex/public_html/IT305/grcc-aviation/uploadform.php on line 103
+[01-Dec-2014 15:38:52 America/Chicago] PHP Fatal error:  Call to undefined function getfilesize() in /home/alex/public_html/IT305/grcc-aviation/uploadform.php on line 103
+[01-Dec-2014 15:40:24 America/Chicago] PHP Fatal error:  Call to undefined function getfilesize() in /home/alex/public_html/IT305/grcc-aviation/uploadform.php on line 103
+[01-Dec-2014 15:44:35 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home/alex/public_html/IT305/grcc-aviation/uploadform.php on line 59
+[01-Dec-2014 15:44:35 America/Chicago] PHP Fatal error:  Call to undefined function getfilesize() in /home/alex/public_html/IT305/grcc-aviation/uploadform.php on line 103
+[01-Dec-2014 15:45:47 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home/alex/public_html/IT305/grcc-aviation/uploadform.php on line 59
+[01-Dec-2014 15:45:47 America/Chicago] PHP Fatal error:  Call to undefined function getfilesize() in /home/alex/public_html/IT305/grcc-aviation/uploadform.php on line 103
+[01-Dec-2014 15:47:46 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home/alex/public_html/IT305/grcc-aviation/uploadform.php on line 59
+[01-Dec-2014 15:47:46 America/Chicago] PHP Fatal error:  Call to undefined function getfilesize() in /home/alex/public_html/IT305/grcc-aviation/uploadform.php on line 103
+[01-Dec-2014 15:47:52 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home/alex/public_html/IT305/grcc-aviation/uploadform.php on line 59
+[01-Dec-2014 15:47:52 America/Chicago] PHP Fatal error:  Call to undefined function getfilesize() in /home/alex/public_html/IT305/grcc-aviation/uploadform.php on line 103
+[01-Dec-2014 15:48:43 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home/alex/public_html/IT305/grcc-aviation/uploadform.php on line 59
+[01-Dec-2014 15:48:43 America/Chicago] PHP Fatal error:  Call to undefined function getfilesize() in /home/alex/public_html/IT305/grcc-aviation/uploadform.php on line 103
+[01-Dec-2014 15:49:01 America/Chicago] PHP Fatal error:  Call to undefined function getfilesize() in /home/alex/public_html/IT305/grcc-aviation/uploadform.php on line 103
+[01-Dec-2014 15:49:47 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home/alex/public_html/IT305/grcc-aviation/uploadform.php on line 59
+[01-Dec-2014 15:49:47 America/Chicago] PHP Fatal error:  Call to undefined function getfilesize() in /home/alex/public_html/IT305/grcc-aviation/uploadform.php on line 103
+[01-Dec-2014 15:50:24 America/Chicago] PHP Fatal error:  Call to undefined function getfilesize() in /home/alex/public_html/IT305/grcc-aviation/uploadform.php on line 103
+[01-Dec-2014 15:50:56 America/Chicago] PHP Fatal error:  Call to undefined function getfilesize() in /home/alex/public_html/IT305/grcc-aviation/uploadform.php on line 103
+[01-Dec-2014 15:59:03 America/Chicago] PHP Fatal error:  Call to undefined function getfilesize() in /home/alex/public_html/IT305/grcc-aviation/uploadform.php on line 104
+[01-Dec-2014 16:01:35 America/Chicago] PHP Fatal error:  Call to undefined function getfilesize() in /home/alex/public_html/IT305/grcc-aviation/uploadform.php on line 104
+[01-Dec-2014 16:06:14 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/alex/public_html/IT305/grcc-aviation/section1.php:8) in /home/alex/public_html/IT305/grcc-aviation/index.php on line 2
+[01-Dec-2014 16:08:53 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/alex/public_html/IT305/grcc-aviation/section1.php:7) in /home/alex/public_html/IT305/grcc-aviation/section1.php on line 8
+[01-Dec-2014 16:08:58 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/alex/public_html/IT305/grcc-aviation/section1.php:7) in /home/alex/public_html/IT305/grcc-aviation/section1.php on line 8
+[01-Dec-2014 16:09:34 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/alex/public_html/IT305/grcc-aviation/section1.php:7) in /home/alex/public_html/IT305/grcc-aviation/section1.php on line 8
+[01-Dec-2014 16:09:41 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/alex/public_html/IT305/grcc-aviation/section1.php:7) in /home/alex/public_html/IT305/grcc-aviation/section1.php on line 8
+[01-Dec-2014 16:09:44 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/alex/public_html/IT305/grcc-aviation/section1.php:7) in /home/alex/public_html/IT305/grcc-aviation/section1.php on line 8
+[01-Dec-2014 16:09:46 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/alex/public_html/IT305/grcc-aviation/section1.php:7) in /home/alex/public_html/IT305/grcc-aviation/section1.php on line 8
+[01-Dec-2014 16:09:49 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/alex/public_html/IT305/grcc-aviation/section1.php:7) in /home/alex/public_html/IT305/grcc-aviation/section1.php on line 8
+[01-Dec-2014 16:13:49 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/alex/public_html/IT305/grcc-aviation/section1.php:8) in /home/alex/public_html/IT305/grcc-aviation/index.php on line 2
+[01-Dec-2014 16:14:13 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/alex/public_html/IT305/grcc-aviation/section1.php:8) in /home/alex/public_html/IT305/grcc-aviation/index.php on line 2
+[01-Dec-2014 16:14:25 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/alex/public_html/IT305/grcc-aviation/section1.php:8) in /home/alex/public_html/IT305/grcc-aviation/index.php on line 2
+[01-Dec-2014 16:14:27 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/alex/public_html/IT305/grcc-aviation/section1.php:8) in /home/alex/public_html/IT305/grcc-aviation/index.php on line 2
+[01-Dec-2014 16:14:29 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/alex/public_html/IT305/grcc-aviation/section1.php:8) in /home/alex/public_html/IT305/grcc-aviation/index.php on line 2
+[01-Dec-2014 16:14:41 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/alex/public_html/IT305/grcc-aviation/section1.php:8) in /home/alex/public_html/IT305/grcc-aviation/index.php on line 2
+[01-Dec-2014 16:14:50 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/alex/public_html/IT305/grcc-aviation/section1.php:8) in /home/alex/public_html/IT305/grcc-aviation/index.php on line 2
+[01-Dec-2014 16:14:58 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/alex/public_html/IT305/grcc-aviation/section1.php:8) in /home/alex/public_html/IT305/grcc-aviation/index.php on line 2
+[01-Dec-2014 16:17:52 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/alex/public_html/IT305/grcc-aviation/section1.php:8) in /home/alex/public_html/IT305/grcc-aviation/index.php on line 2
+[01-Dec-2014 16:17:55 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home/alex/public_html/IT305/grcc-aviation/uploadform.php on line 60
+[01-Dec-2014 16:18:08 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/alex/public_html/IT305/grcc-aviation/section1.php:8) in /home/alex/public_html/IT305/grcc-aviation/index.php on line 2
+[01-Dec-2014 16:18:08 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/alex/public_html/IT305/grcc-aviation/section1.php:8) in /home/alex/public_html/IT305/grcc-aviation/index.php on line 2
+[01-Dec-2014 16:19:48 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/alex/public_html/IT305/grcc-aviation/section1.php:8) in /home/alex/public_html/IT305/grcc-aviation/index.php on line 2
+[01-Dec-2014 16:20:00 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/alex/public_html/IT305/grcc-aviation/section1.php:8) in /home/alex/public_html/IT305/grcc-aviation/index.php on line 2
+[01-Dec-2014 16:32:28 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home/alex/public_html/IT305/grcc-aviation/uploadform.php on line 60
+[01-Dec-2014 16:32:52 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home/alex/public_html/IT305/grcc-aviation/uploadform.php on line 60
+[01-Dec-2014 16:33:08 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home/alex/public_html/IT305/grcc-aviation/uploadform.php on line 60
+[01-Dec-2014 16:34:41 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home/alex/public_html/IT305/grcc-aviation/uploadform.php on line 60
+[01-Dec-2014 16:44:14 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home/alex/public_html/IT305/grcc-aviation/uploadform.php on line 60
+[01-Dec-2014 16:44:50 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home/alex/public_html/IT305/grcc-aviation/uploadform.php on line 60
+[01-Dec-2014 18:50:37 America/Chicago] PHP Parse error:  syntax error, unexpected ''term'' (T_CONSTANT_ENCAPSED_STRING) in /home/alex/public_html/IT305/grcc-aviation/uploadform.php on line 53
+[01-Dec-2014 18:50:54 America/Chicago] PHP Parse error:  syntax error, unexpected ''term'' (T_CONSTANT_ENCAPSED_STRING) in /home/alex/public_html/IT305/grcc-aviation/uploadform.php on line 53
+[01-Dec-2014 18:51:41 America/Chicago] PHP Parse error:  syntax error, unexpected '(' in /home/alex/public_html/IT305/grcc-aviation/uploadform.php on line 53
+[01-Dec-2014 19:01:44 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/alex/public_html/IT305/grcc-aviation/uploadform.php on line 123
+[01-Dec-2014 19:02:00 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home/alex/public_html/IT305/grcc-aviation/uploadform.php on line 60
+[01-Dec-2014 19:17:52 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/alex/public_html/IT305/grcc-aviation/login.php on line 50
+[01-Dec-2014 19:19:37 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/alex/public_html/IT305/grcc-aviation/uploadform.php on line 176
+[01-Dec-2014 19:53:08 America/Chicago] PHP Parse error:  syntax error, unexpected '$' in /home/alex/public_html/IT305/grcc-aviation/login.php on line 46
+[02-Dec-2014 14:03:29 America/Chicago] PHP Warning:  include(learn.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:03:29 America/Chicago] PHP Warning:  include(learn.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:03:29 America/Chicago] PHP Warning:  include(): Failed opening 'learn.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:03:31 America/Chicago] PHP Warning:  include(about.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:03:31 America/Chicago] PHP Warning:  include(about.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:03:31 America/Chicago] PHP Warning:  include(): Failed opening 'about.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:03:59 America/Chicago] PHP Warning:  include(learn.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:03:59 America/Chicago] PHP Warning:  include(learn.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:03:59 America/Chicago] PHP Warning:  include(): Failed opening 'learn.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:04:00 America/Chicago] PHP Warning:  include(about.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:04:00 America/Chicago] PHP Warning:  include(about.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:04:00 America/Chicago] PHP Warning:  include(): Failed opening 'about.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:04:06 America/Chicago] PHP Warning:  include(learn.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:04:06 America/Chicago] PHP Warning:  include(learn.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:04:06 America/Chicago] PHP Warning:  include(): Failed opening 'learn.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:04:18 America/Chicago] PHP Warning:  include(about.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:04:18 America/Chicago] PHP Warning:  include(about.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:04:18 America/Chicago] PHP Warning:  include(): Failed opening 'about.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:04:25 America/Chicago] PHP Warning:  include(about.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:04:25 America/Chicago] PHP Warning:  include(about.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:04:25 America/Chicago] PHP Warning:  include(): Failed opening 'about.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:04:31 America/Chicago] PHP Warning:  include(learn.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:04:31 America/Chicago] PHP Warning:  include(learn.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:04:31 America/Chicago] PHP Warning:  include(): Failed opening 'learn.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:06:11 America/Chicago] PHP Warning:  include(upload.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:06:11 America/Chicago] PHP Warning:  include(upload.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:06:11 America/Chicago] PHP Warning:  include(): Failed opening 'upload.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:06:27 America/Chicago] PHP Warning:  include(upload.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:06:27 America/Chicago] PHP Warning:  include(upload.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:06:27 America/Chicago] PHP Warning:  include(): Failed opening 'upload.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:06:53 America/Chicago] PHP Warning:  include(uploadform.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:06:53 America/Chicago] PHP Warning:  include(uploadform.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:06:53 America/Chicago] PHP Warning:  include(): Failed opening 'uploadform.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:08:20 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:08:20 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:08:20 America/Chicago] PHP Warning:  include(): Failed opening 'learnit.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:08:59 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:08:59 America/Chicago] PHP Warning:  include(learnit.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:08:59 America/Chicago] PHP Warning:  include(): Failed opening 'learnit.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:18:26 America/Chicago] PHP Parse error:  syntax error, unexpected 'var' (T_VAR) in /home/alex/public_html/IT305/grcc-aviation/section1.php on line 68
+[02-Dec-2014 14:33:30 America/Chicago] PHP Fatal error:  Can't use function return value in write context in /home/alex/public_html/IT305/grcc-aviation/section1.php on line 79
+[02-Dec-2014 14:37:18 America/Chicago] PHP Warning:  include(aboutus.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:37:18 America/Chicago] PHP Warning:  include(aboutus.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:37:18 America/Chicago] PHP Warning:  include(): Failed opening 'aboutus.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:37:37 America/Chicago] PHP Warning:  include(aboutus.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:37:37 America/Chicago] PHP Warning:  include(aboutus.php): failed to open stream: No such file or directory in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:37:37 America/Chicago] PHP Warning:  include(): Failed opening 'aboutus.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/alex/public_html/IT305/grcc-aviation/index.php on line 73
+[02-Dec-2014 14:47:38 America/Chicago] PHP Warning:  get_browser(): browscap ini directive not set in /home/alex/public_html/IT305/grcc-aviation/section1.php on line 79
+[02-Dec-2014 14:47:38 America/Chicago] PHP Warning:  get_browser(): browscap ini directive not set in /home/alex/public_html/IT305/grcc-aviation/section1.php on line 79
+[02-Dec-2014 14:47:38 America/Chicago] PHP Warning:  get_browser(): browscap ini directive not set in /home/alex/public_html/IT305/grcc-aviation/section1.php on line 79
+[02-Dec-2014 14:47:38 America/Chicago] PHP Warning:  get_browser(): browscap ini directive not set in /home/alex/public_html/IT305/grcc-aviation/section1.php on line 79
+[02-Dec-2014 14:47:54 America/Chicago] PHP Warning:  get_browser(): browscap ini directive not set in /home/alex/public_html/IT305/grcc-aviation/section1.php on line 79
+[02-Dec-2014 14:47:54 America/Chicago] PHP Warning:  get_browser(): browscap ini directive not set in /home/alex/public_html/IT305/grcc-aviation/section1.php on line 79
+[02-Dec-2014 14:47:54 America/Chicago] PHP Warning:  get_browser(): browscap ini directive not set in /home/alex/public_html/IT305/grcc-aviation/section1.php on line 79
+[02-Dec-2014 14:47:54 America/Chicago] PHP Warning:  get_browser(): browscap ini directive not set in /home/alex/public_html/IT305/grcc-aviation/section1.php on line 79
+[02-Dec-2014 14:56:51 America/Chicago] PHP Fatal error:  Cannot redeclare ae_detect_ie() (previously declared in /home/alex/public_html/IT305/grcc-aviation/section1.php:81) in /home/alex/public_html/IT305/grcc-aviation/section1.php on line 79
+[02-Dec-2014 16:05:32 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/alex/public_html/IT305/grcc-aviation/learn.php on line 23
+[02-Dec-2014 22:02:43 America/Chicago] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE), expecting ',' or ';' in /home/alex/public_html/IT305/grcc-aviation/learn.php on line 39
+[02-Dec-2014 22:11:13 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/alex/public_html/IT305/grcc-aviation/learn.php on line 97
+[02-Dec-2014 22:11:37 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/alex/public_html/IT305/grcc-aviation/learn.php on line 97
+[02-Dec-2014 22:11:40 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/alex/public_html/IT305/grcc-aviation/learn.php on line 97
+[02-Dec-2014 22:19:15 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/alex/public_html/IT305/grcc-aviation/learn.php on line 57
+[02-Dec-2014 22:33:08 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/alex/public_html/IT305/grcc-aviation/learn.php on line 48
+[02-Dec-2014 22:38:12 America/Chicago] PHP Parse error:  syntax error, unexpected '++' (T_INC), expecting ')' in /home/alex/public_html/IT305/grcc-aviation/learn.php on line 24
+[02-Dec-2014 22:39:22 America/Chicago] PHP Parse error:  syntax error, unexpected '++' (T_INC), expecting ')' in /home/alex/public_html/IT305/grcc-aviation/learn.php on line 26
+[02-Dec-2014 22:39:38 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/alex/public_html/IT305/grcc-aviation/learn.php on line 97
+[02-Dec-2014 22:39:48 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/alex/public_html/IT305/grcc-aviation/learn.php on line 97
+[02-Dec-2014 22:40:40 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/alex/public_html/IT305/grcc-aviation/learn.php on line 74
+[02-Dec-2014 23:04:02 America/Chicago] PHP Parse error:  syntax error, unexpected 'stage' (T_STRING), expecting ',' or ';' in /home/alex/public_html/IT305/grcc-aviation/learn.php on line 54
+[02-Dec-2014 23:29:42 America/Chicago] PHP Parse error:  syntax error, unexpected 'Fstage' (T_STRING), expecting ',' or ';' in /home/alex/public_html/IT305/grcc-aviation/learn.php on line 54
+[03-Dec-2014 02:15:09 America/Chicago] PHP Parse error:  syntax error, unexpected '$term' (T_VARIABLE), expecting ',' or ';' in /home/alex/public_html/IT305/grcc-aviation/learn.php on line 57
+[03-Dec-2014 02:15:41 America/Chicago] PHP Parse error:  syntax error, unexpected '"' in /home/alex/public_html/IT305/grcc-aviation/learn.php on line 57
+[03-Dec-2014 02:26:19 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home/alex/public_html/IT305/grcc-aviation/upload.php on line 81
+[03-Dec-2014 02:57:05 America/Chicago] PHP Parse error:  syntax error, unexpected '(', expecting variable (T_VARIABLE) or '$' in /home/alex/public_html/IT305/grcc-aviation/learn.php on line 48
